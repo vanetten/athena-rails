@@ -58,7 +58,7 @@ This is [athena jdbc adapter](http://docs.aws.amazon.com/athena/latest/ug/connec
 	  spec.summary       = "AthenaJDBC41-1.0.0.jar for JRuby Rails."
 	  spec.description   = "This gem provides AthenaJDBC41-1.0.0.jar for your JRuby Rails application."
 	  spec.homepage      = "https://github.com/vanetten/athena-rails"
-  	spec.metadata['allowed_push_host'] = "http://rubygems.org"
+  	spec.metadata['allowed_push_host'] = "https://rubygems.org"
 	  spec.files         = `git ls-files -z`.split("\x0") + ["LICENSE", "README.md"]
 		spec.add_dependency "railties", "~> 4.1"
 

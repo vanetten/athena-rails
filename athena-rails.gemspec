@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/vanetten/athena-rails"
   spec.license       = "MIT"
 
-  spec.metadata['allowed_push_host'] = "http://rubygems.org"
+  spec.metadata['allowed_push_host'] = "https://rubygems.org"
 
   spec.files         = `git ls-files -z`.split("\x0") + ["LICENSE", "README.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
