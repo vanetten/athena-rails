@@ -39,7 +39,7 @@ This is [athena jdbc adapter](http://docs.aws.amazon.com/athena/latest/ug/connec
 		bundle gem athena-rails
 		cd athena-rails
 		mkdir -p vendor/assets/javascripts
-		curl https://s3.amazonaws.com/athena-downloads/drivers/AthenaJDBC41-1.0.0.jar -o vendor/assets/javascripts/athena.js
+		curl https://s3.amazonaws.com/athena-downloads/drivers/AthenaJDBC41-1.0.0.jar -o lib/athena.jar
 		git add .
 		git commit -am "athena-rails"
 		git remote add origin git@github.com:vanetten/athena-rails.git
